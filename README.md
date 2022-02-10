@@ -14,7 +14,8 @@ is maximally violated by $CHSH=6\sqrt{2}$. This shows the nonlocality of entangl
 
 ## Entanglement Swapping
 
-We have three observers: Alice, Bob and Charlie. We prepare two (maximally entangled) quantum states ($\sigma=|\phi^{+}\rangle\langle\phi^{+}|$) and distribute first one $\sigma_{AB_1}$ to Alice and Bob, and second one $\sigma_{B_2C}$ to Bob and Chalie. Then Bob performs Bell mesurement on his qubits where the outcome should be $b \in \left\{\phi^+, \phi^-, \psi^+, \psi^-\right\} = \left\{00, 01, 10, 11\right\}$ with equal probabilities. Now, Alice and Chaile shares one of maximally entangled states $|\phi^{+}\rangle, |\phi^{-}\rangle, |\psi^{+}\rangle, |\psi^{-}\rangle$ depending on $b$. Thus, $CHSH$ inequality would be violated when Alice and Chalie choose specific measurement basis. 
+We have three observers: Alice, Bob and Charlie. We prepare two (maximally entangled) quantum states ($\sigma=|\phi^{+}\rangle\langle\phi^{+}|$) and distribute first one $\sigma_{AB_1}$ to Alice and Bob, and second one $\sigma_{B_2C}$ to Bob and Chalie. Then Bob performs Bell mesurement on his qubits where the outcome should be $b \in \left\{\phi^+, \phi^-, \psi^+, \psi^-\right\} = \left\{00, 01, 10, 11\right\}$ with equal probabilities. Now, Alice and Chaile shares one of maximally entangled states $|\phi^{+}\rangle, |\phi^{-}\rangle, |\psi^{+}\rangle, |\psi^{-}\rangle$ depending on $b$. Thus, $CHSH$ inequality would be violated when Alice and Chalie choose specific measurement basis. See figure from [the paper](https://www.nature.com/articles/s41586-021-04160-4)
+![nature](nature.png)
 
 More specifically, let's say Alice can choose three observables having eigenvalues of $\pm1$ ($A_x, x\in\left\{1, 2, 3\right\}$) and Chalie can choose six ($C_z, z\in\left\{1,\dots,6\right\}$). We what to see the violation on $CHSH_3$ inequality;
 $$ CHSH_3 = CHSH_{x=1, 2, z=1, 2}+CHSH_{x=1, 3, z=3, 4}+CHSH_{x=2, 3, z=5, 6}\le6$$
