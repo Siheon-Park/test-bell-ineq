@@ -28,11 +28,11 @@ $$ \mathcal{J}_b = (-1)^{b_2}\langle A_1C_1 \rangle + (-1)^{b_2}\langle A_1C_2 \
 is $6\sqrt{2}$ regardless of the value of $b$. Therefore, the inequality is maixmally violated by $CHSH_3=6\sqrt{2}$ What is interesting is that if we consider "Real" value quantum physics, it has been proven that $CHSH_3\le7.66$. Thus, $CHSH_3$ inequality experiment can be used to show that not only nonlocallity, but also the necessity of complex numbers in quantum mechanics.
 
 ## Result
-We performed $CHSH_3$ inequality violation experiment on various IBMQ quantum devices. 
+We performed $CHSH_3$ inequality violation experiment on various IBMQ quantum devices. To reproduce the experiment, run `Entanglement_Swapping_CHSH_3_with_2_graphs.ipynb` notebook with your choice of IBMQ devices. The meaningful result 
 
 | Device      | QuantumVolume | # qubits |CHSH_3 |
 | ----------- | ----------- | ---------| -----|
 | ibmq_quito      | 16       |5|1.769776616219977 |
-| ibm_perth   | 32        |5|
+| ibm_lagos   | 32        |7| 5.812749912639812 |
 
-
+Although we did not achieved violation due to noise, as QV improves, the bound becomes larger. It seems that $CHSH$ of specific measurment basis is responsible for the inviolation.
